@@ -45,8 +45,6 @@ class Client:
     def get(self, endpoint):
         headers = self.get_header()
         url = self.get_url(endpoint)
-        print(url)
-        print(headers)
 
         response = requests.get(url, headers=headers)
 
