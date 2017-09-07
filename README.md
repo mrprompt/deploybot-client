@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/mrprompt/deploybot-client.svg)](https://github.com/mrprompt/deploybot-client/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/mrprompt/deploybot-client/master/LICENSE)
 
-A library to [Deploybot](https://www.deploybot.com) API.
+A library to access [Deploybot](https://www.deploybot.com) API.
 
 ## Install
 
