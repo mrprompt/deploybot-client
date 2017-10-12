@@ -1,6 +1,0 @@
-requests
-mock
-coverage
-pytest
-pytest-cov
-unittest-data-provider

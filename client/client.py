@@ -33,7 +33,7 @@ class Client:
         headers = {
             "X-Api-Token": token,
             "Accept": "application/json",
-            "User-Agent": "deploybot-sdk agent"
+            "User-Agent": "deploybot-client agent"
         }
 
         return headers

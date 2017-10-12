@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-from deploybot.client import Client
+from client.client import Client
 import os
 
 
@@ -25,7 +25,7 @@ class ClientTest(TestCase):
         result_expected = {
             "X-Api-Token": self.token,
             "Accept": "application/json",
-            "User-Agent": "deploybot-sdk agent"
+            "User-Agent": "deploybot-client agent"
         }
 
         self.assertEqual(result_expected, self.client.get_header())
